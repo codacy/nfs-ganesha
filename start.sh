@@ -45,7 +45,7 @@ NFS_Core_Param
 {
 	MNT_Port = 20048;
 	fsid_device = true;
-	Protocols = ${GANESHA_PROTOCOLS};
+	Protocols = ${GANESHA_NFS_PROTOCOLS};
 }
 
 NFSV4
