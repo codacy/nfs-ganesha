@@ -10,7 +10,7 @@ set -e
 : ${GANESHA_EPOCH:=""}
 : ${GANESHA_EXPORT_ID:="69"}
 : ${GANESHA_EXPORT:="/export"}
-: ${GANESHA_NFS_PROTOCOLS:="4"}
+: ${GANESHA_NFS_PROTOCOLS:="3,4"}
 : ${GANESHA_TRANSPORTS:="UDP,TCP"}
 
 # Docs: https://github.com/nfs-ganesha/nfs-ganesha/blob/next/src/doc/man/ganesha-export-config.rst
